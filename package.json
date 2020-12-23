@@ -1,0 +1,39 @@
+{
+  "name": "ts-product-spider",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./build/index.js",
+  "scripts": {
+    "dev": "tsc --watch",
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "eslint": "eslint src --ext .ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cheerio": "^0.22.22",
+    "@types/node": "^14.14.8",
+    "@types/redis": "^2.8.28",
+    "@types/superagent": "^4.1.10",
+    "@types/superagent-proxy": "^2.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.6.0",
+    "@typescript-eslint/parser": "^4.6.0",
+    "eslint": "^7.12.1",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5"
+  },
+  "dependencies": {
+    "@types/puppeteer-core": "^2.0.0",
+    "cheerio": "^1.0.0-rc.3",
+    "mysql": "^2.18.1",
+    "puppeteer-core": "^5.5.0",
+    "redis": "^3.0.2",
+    "reflect-metadata": "^0.1.13",
+    "superagent": "^6.1.0",
+    "superagent-proxy": "^2.1.0",
+    "typeorm": "^0.2.29"
+  }
+}
